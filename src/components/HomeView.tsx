@@ -533,14 +533,6 @@ export default function HomeView({
                 <MapPin className="w-5 h-5 text-emerald-500 shrink-0" />
                 <span>{language === 'mr' ? 'मु. पो. अपशिंगे, तालुका कोरेगाव, जिल्हा सातारा, महाराष्ट्र - ४१५५११' : 'At/Post Apshinge, Taluka Koregaon, District Satara, Maharashtra - 415511'}</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-emerald-500 shrink-0" />
-                <span>+91 98765 43210</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail className="w-4 h-4 text-emerald-500 shrink-0" />
-                <span>info@apshingehighschool.org</span>
-              </div>
             </div>
           </div>
 
@@ -573,12 +565,23 @@ export default function HomeView({
 
         </div>
 
-        <div className="max-w-7xl mx-auto pt-8 flex flex-col md:flex-row md:items-center md:justify-between text-xs text-slate-500 font-medium">
-          <p>&copy; २०२६ अपशिंगे हायस्कूल अपशिंगे. सर्व हक्क सुरक्षित. Designed and Built for Academic Empowerment.</p>
-          <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-emerald-500">Privacy Policy</a>
-            <a href="#" className="hover:text-emerald-500">Terms of Service</a>
-            <a href="#" className="hover:text-emerald-500">Sitemap</a>
+        <div className="max-w-7xl mx-auto pt-8 flex flex-col lg:flex-row lg:items-center lg:justify-between text-xs text-slate-500 font-medium">
+          <p className="mb-4 lg:mb-0">&copy; २०२६ अपशिंगे हायस्कूल अपशिंगे. सर्व हक्क सुरक्षित.</p>
+          <div className="bg-slate-900/90 border border-indigo-500/25 rounded-xl px-4 py-3 flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 shadow-lg text-xs">
+            <div className="flex items-center gap-1.5">
+              <span className="bg-indigo-500/10 text-indigo-400 font-black px-2 py-0.5 rounded text-[10px] tracking-wider uppercase">Developer</span>
+              <span className="text-slate-200 font-black text-sm">Omkar vilas Karande</span>
+            </div>
+            <div className="hidden sm:block text-slate-700">|</div>
+            <div className="flex items-center gap-2">
+              <span className="text-[#E1306C] font-extrabold">Instagram:</span>
+              <a href="https://instagram.com/omkarkarande12" target="_blank" rel="noopener noreferrer" className="font-mono font-bold text-slate-100 hover:underline">@omkarkarande12</a>
+            </div>
+            <div className="hidden sm:block text-slate-700">|</div>
+            <div className="flex items-center gap-2">
+              <span className="text-teal-400 font-extrabold">Mobile:</span>
+              <a href="tel:+919834534812" className="font-mono font-bold text-slate-100 hover:underline">9834534812</a>
+            </div>
           </div>
         </div>
       </footer>
