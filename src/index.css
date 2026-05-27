@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Fira+Code:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+
+  /* Organic Clean Color Palette Overrides */
+  --color-slate-50: #FAF6EE;       /* Pale Beige / Light Khaki */
+  --color-slate-100: #F3E9DC;      /* Peach Beige / Nude Beige */
+  --color-slate-200: #EADDC9;      /* Golden Nude border */
+  --color-slate-300: #D8C3A5;      /* Warm Khaki divider */
+  --color-slate-400: #A89580;      /* Muted Earth */
+  --color-slate-500: #64748B;      /* Standard Slate for crisp readable neutral elements */
+  --color-slate-600: #475569;      /* Standard Dark Slate */
+  --color-slate-700: #334155;      /* Standard Slate Accent */
+  --color-slate-800: #1E293B;      /* Rich Slate Dark */
+  --color-slate-900: #0F172A;      /* Indigo Black text */
+
+  /* Map indigo/violet to Coral & Sandy Oranges (Silent & Soft) */
+  --color-indigo-50: #FAF6EE;      /* Pale Beige / Khaki Light */
+  --color-indigo-100: #F4EAD4;     /* Peach Beige / Nude Beige */
+  --color-indigo-200: #EADDC9;     /* Cream Nude */
+  --color-indigo-300: #F4D3B4;     /* Light Muted Sand */
+  --color-indigo-400: #F4A261;     /* Sandy Orange */
+  --color-indigo-500: #F4A261;     /* Custom Sandy Orange */
+  --color-indigo-600: #E76F51;     /* Coral Orange Base */
+  --color-indigo-700: #D45D3B;     /* Muted Terracotta Coral */
+  --color-indigo-800: #BC4B2D;     /* Warm Clay Clay */
+  --color-indigo-900: #5C2314;     /* Deep terracotta cocoa */
+  --color-indigo-950: #3B160C;     /* Dark Terracotta Walnut */
+
+  /* Map violet colors */
+  --color-violet-950: #1F0E0A;     /* Soft Charcoal Night Rose */
+
+  /* Map teal, emerald and cyan to calming Seafoam & Mint Greens */
+  --color-teal-50: #F1F7F4;        /* Soft Seafoam Tint */
+  --color-teal-100: #E3EFEA;       /* Light Muted Teal */
+  --color-teal-200: #C4E2D3;       /* Soft Mint Base */
+  --color-teal-600: #7ED9B4;       /* Calming Mint Green */
+  --color-teal-750: #5BB38E;       /* Seafoam Green Medium */
+  --color-teal-800: #4B9E7B;       /* Deep Mint Forest */
+  --color-teal-900: #357D5D;       /* Safe Silent Forest */
+  --color-teal-950: #1C543B;       /* Deep Forest Jade */
+
+  --color-emerald-50: #F1F7F4;     /* Soft Seafoam Tint */
+  --color-emerald-100: #E3EFEA;    /* Light Muted Teal */
+  --color-emerald-600: #7ED9B4;    /* Calming Mint Green */
+  --color-emerald-700: #5BB38E;    /* Seafoam Green Accent */
+  --color-emerald-800: #4B9E7B;    /* Deep Mint Forest */
+  --color-emerald-900: #357D5D;    /* Safe Silent Forest */
+
+  --color-cyan-900: #357D5D;       /* Silent Jade */
+  --color-cyan-950: #1C543B;       /* Deep Forest Jade */
+}
+

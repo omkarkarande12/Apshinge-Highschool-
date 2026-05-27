@@ -1,0 +1,6 @@
+{
+  "name": "अपशिंगे हायस्कूल अपशिंगे",
+  "description": "एक सुसज्ज आणि डिजिटल स्कूल व्यवस्थापन प्रणाली, ई-लर्निंग प्लॅटफॉर्म, परीक्षा केंद्र आणि निकालांचे स्वयंचलित विश्लेषण करणारी आधुनिक वेबसाईट.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
